@@ -1,0 +1,31 @@
+[ {
+  "id" : "image_field",
+  "name" : "image_field",
+  "display_width" : null,
+  "label" : "Logo",
+  "required" : false,
+  "locked" : false,
+  "responsive" : true,
+  "resizable" : true,
+  "show_loading" : false,
+  "type" : "image",
+  "default" : {
+    "size_type" : "exact",
+    "src" : "https://139794963.fs1.hubspotusercontent-eu1.net/hubfs/139794963/rtk-logo.png",
+    "alt" : "rtk-logo",
+    "loading" : "lazy",
+    "width" : 384,
+    "height" : 160,
+    "max_width" : 384,
+    "max_height" : 160
+  }
+}, {
+  "id" : "fdecfe8b-8188-26a2-07b5-612653b3af61",
+  "name" : "menu_field",
+  "display_width" : null,
+  "label" : "Menu",
+  "required" : false,
+  "locked" : false,
+  "type" : "menu",
+  "default" : 104174174936
+} ]

@@ -1,0 +1,29 @@
+<!-- module html  -->
+{# Neues Menü-Modul, das nur das Menü aus dem Feld "menu_field" anzeigt #}
+
+{% macro render_simple_menu(menu) %}
+{% for link in menu.children %}
+  <li class="menu__item {{ "menu__item--has-submenu" if link.children }}">
+    <a class="menu__link" href="{{ link.url|escape_url }}" {{ 'target="_blank" rel="noopener"' if link.linkTarget }}>
+      {{ link.label|escape_html }}
+    </a>
+    {% if link.children %}
+      <ul class="menu__submenu">
+        {% for sublink in link.children %}
+          <li class="menu__item">
+            <a class="menu__link" href="{{ sublink.url|escape_url }}" {{ 'target="_blank" rel="noopener"' if sublink.linkTarget }}>
+              {{ sublink.label|escape_html }}
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  </li>
+{% endfor %}
+{% endmacro %}
+
+<nav class="menu" aria-label="Main menu">
+<ul class="menu__wrapper no-list">
+  {{ render_simple_menu(menu(module.menu_field, "site_root")) }}
+</ul>
+</nav>
