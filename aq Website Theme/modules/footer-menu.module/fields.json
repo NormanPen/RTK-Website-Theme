@@ -1,0 +1,43 @@
+[ {
+  "id" : "d03e6cff-4b56-7b98-fa7d-ba5753dd3aab",
+  "name" : "heading1",
+  "display_width" : null,
+  "label" : "Überschrift 1 Navigation",
+  "required" : false,
+  "locked" : true,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Service"
+}, {
+  "id" : "10551da5-b582-58a1-0286-9c882c5b9a1f",
+  "name" : "menu_field1",
+  "display_width" : null,
+  "label" : "Footer 1ste Navigation",
+  "required" : false,
+  "locked" : true,
+  "type" : "menu",
+  "default" : 104174174936
+}, {
+  "id" : "afa19409-efeb-c283-51f3-504be421068e",
+  "name" : "heading2",
+  "display_width" : null,
+  "label" : "Überschrift 2 Navigation",
+  "required" : false,
+  "locked" : true,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Unternehmen"
+}, {
+  "id" : "8f8e7084-719f-54b2-514e-6a298903d1d5",
+  "name" : "menu_field2",
+  "display_width" : null,
+  "label" : "Footer 2te Navigation",
+  "required" : false,
+  "locked" : true,
+  "type" : "menu",
+  "default" : 106231316455
+} ]

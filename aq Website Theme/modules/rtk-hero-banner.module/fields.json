@@ -1,0 +1,150 @@
+[ {
+  "id" : "201e51c8-5c1d-ca19-cbf8-ef92e05d3a64",
+  "name" : "image_field",
+  "display_width" : null,
+  "label" : "Image",
+  "required" : false,
+  "locked" : false,
+  "responsive" : true,
+  "resizable" : true,
+  "show_loading" : false,
+  "type" : "image",
+  "default" : {
+    "size_type" : "auto_custom_max",
+    "src" : "https://139794963.fs1.hubspotusercontent-eu1.net/hubfs/139794963/rtk-hero-image-4k-low.png",
+    "alt" : "rtk-hero-image-4k-low",
+    "loading" : "lazy",
+    "width" : 3837,
+    "height" : 1845,
+    "max_width" : 2000,
+    "max_height" : 961.6888193901486
+  }
+}, {
+  "id" : "183996fe-a802-f2f1-cd98-d86ffa0533fd",
+  "name" : "heading",
+  "display_width" : null,
+  "label" : "Überschrift",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Die Welt entdecken mit"
+}, {
+  "id" : "b707dab9-8219-c945-aed4-219c0c18191c",
+  "name" : "text_field",
+  "display_width" : null,
+  "label" : "Text",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. "
+}, {
+  "id" : "71c86c41-1a9a-f5bb-c423-d904c9c2b40f",
+  "name" : "green_button_text",
+  "display_width" : null,
+  "label" : "Green Button Text",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Jetzt Partner werden"
+}, {
+  "id" : "4d2f41bc-93d4-2a28-b6f9-8fe68e64da09",
+  "name" : "green_button_link",
+  "display_width" : null,
+  "label" : "Green Button Link",
+  "required" : false,
+  "locked" : false,
+  "supported_types" : [ "EXTERNAL", "CONTENT", "FILE", "EMAIL_ADDRESS", "BLOG", "CALL_TO_ACTION", "PHONE_NUMBER", "WHATSAPP_NUMBER", "PAYMENT" ],
+  "show_advanced_rel_options" : false,
+  "type" : "link",
+  "default" : {
+    "url" : {
+      "content_id" : null,
+      "type" : "EXTERNAL",
+      "href" : ""
+    },
+    "open_in_new_tab" : false,
+    "no_follow" : false
+  }
+}, {
+  "id" : "b9fe9609-caaf-f97a-cba6-c4756c6df2c4",
+  "name" : "white_button_text",
+  "display_width" : null,
+  "label" : "White Button Text",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Mehr erfahren"
+}, {
+  "id" : "c3f8acbe-148f-5da5-f337-8305aeb48947",
+  "name" : "style",
+  "display_width" : null,
+  "label" : "Style",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "67ff14e5-d0a0-4b11-aee4-efd754a6c378",
+    "name" : "color_field",
+    "display_width" : null,
+    "label" : "Textfarbe",
+    "required" : false,
+    "locked" : false,
+    "type" : "color",
+    "default" : {
+      "color" : "#FF0201",
+      "opacity" : 100
+    }
+  } ],
+  "tab" : "STYLE",
+  "expanded" : false,
+  "group_occurrence_meta" : null,
+  "type" : "group",
+  "default" : {
+    "color_field" : {
+      "color" : "#FF0201",
+      "opacity" : 100
+    }
+  }
+}, {
+  "id" : "a4a3d83f-5e56-4c2b-be1e-e8ee7f64d0bb",
+  "name" : "white_button_link",
+  "display_width" : null,
+  "label" : "White Button Link",
+  "required" : false,
+  "locked" : false,
+  "supported_types" : [ "EXTERNAL", "CONTENT", "FILE", "EMAIL_ADDRESS", "BLOG", "CALL_TO_ACTION", "PHONE_NUMBER", "WHATSAPP_NUMBER", "PAYMENT" ],
+  "show_advanced_rel_options" : false,
+  "type" : "link",
+  "default" : {
+    "url" : {
+      "content_id" : null,
+      "type" : "EXTERNAL",
+      "href" : ""
+    },
+    "open_in_new_tab" : false,
+    "no_follow" : false
+  }
+}, {
+  "id" : "3242ec2c-c4d2-5c65-ad12-a0b3f6863091",
+  "name" : "color_field_1",
+  "display_width" : null,
+  "label" : "Color",
+  "required" : false,
+  "locked" : false,
+  "type" : "color",
+  "default" : {
+    "color" : "#FF00FF",
+    "opacity" : 100
+  }
+} ]

@@ -1,0 +1,18 @@
+.burger-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .burger-line {
+    width: 34px;
+    height: 3px;
+    background-color: black;
+    margin-bottom: 7px;
+}
+
+.rtk-mobile-menu_hidden {
+  display: none !important;
+}
+

@@ -1,0 +1,243 @@
+.network-wrapper h1,h2,h3,p {
+  padding: 0;
+  margin: 0;
+  font-family: 'Verdana', sans-serif;
+}
+
+.network-wrapper {
+  width: 100%;             
+}
+
+.network {
+  width: 80%;              
+  margin: 32px auto; 
+  
+}
+
+.network-card {
+  margin: 0 16px;
+  padding: 16px;
+  border: 1px solid #D9D9D9; 
+  border-radius: 21px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+
+.network-text h2{
+  font-size: 32px;
+  font-weight: bold;
+  margin: 16px 0 16px 0;
+  color: #000;
+}
+
+.network-text p{
+  font-size: 16px;
+  font-weight: regular;
+  color: #000;
+  margin: 16px 0 16px 0;
+}
+
+.heading-orange {
+  color: #E45A1A;
+}
+
+.network-info-text-wrapper h3, p {
+  color: #000;
+}
+
+.rtk-button_roundet {
+  margin: 16px 0 16px 0;
+}
+
+.rtk-button_underline {
+  margin: 16px 0 16px 0px;
+}
+
+.network-buttons {
+  display: flex; 
+  justify-content: left; 
+  align-items: center;
+  gap: 16px;
+  height: 100%; 
+}
+
+.network-button-wrapper {
+  display: flex; 
+  justify-content: center; 
+}
+
+
+.network-image {
+  width: 64px;
+  height: auto;
+}
+
+.network-info-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 330px;
+  gap: 32px; 
+  margin: 16px 0 16px 0;
+}
+
+.network-info {
+  display: flex; 
+  align-items: center; 
+}
+
+.network-image-wrapper {
+  margin-right: 32px; 
+}
+
+.network-info-text-wrapper {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+}
+
+/* Desktop-Layout */
+@media (min-width: 1024px) {
+  .network-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 32px; 
+    margin: 0;
+    padding: 32px; 
+    align-items: start; 
+  }
+
+  /* Ändere die Reihenfolge der Elemente innerhalb des Grids */
+  .network-info-wrapper {
+    order: 1; 
+    align-self: start; 
+  }
+
+  .network-text-button-wrapper {
+    order: 2; 
+  }
+
+  /* Die Text- und Button-Wrapping-Div nach rechts verschieben */
+  .network-text-button-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  /* Die Network-Info bleibt links und oben ausrichten */
+  .network-info-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  /* Die Buttons nebeneinander anordnen */
+  .network-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16px; 
+  }
+
+  .network-button-wrapper {
+    display: flex; 
+    justify-content: center; 
+  }
+}
+
+
+
+
+/* -----------------MUSS NOCH ENTFERNT WERDEN------------------- */
+
+/* Button_roundet-Container */
+.rtk-button_roundet {
+    display: inline-block; 
+    border-radius: 50px; 
+    background-color: #D1D700; 
+    padding: 12px 32px; 
+    text-align: center; 
+    transition: background-color 0.3s ease; 
+}
+
+/* Link im Button */
+.rtk-button_roundet a {
+    font-family: Verdana, Arial, sans-serif; 
+    font-weight: bold; 
+    font-size: 16px; 
+    line-height: 1.5; 
+    color: #fff; 
+    text-decoration: none; 
+    display: block; 
+}
+
+/* Hover-Effekt */
+.rtk-button_roundet:hover {
+    background-color: #1D5C64; 
+}
+
+/* Link bleibt unverändert beim Hover */
+.rtk-button_roundet a:hover {
+    color: #fff; 
+    text-decoration: none; 
+}
+
+/* Button_underline-Container */
+.rtk-button_underline {
+    display: inline-block; 
+    position: relative;
+    padding: 0;
+    text-align: center;
+}
+
+/* Link im Button */
+.rtk-button_underline a {
+    font-family: Verdana, Arial, sans-serif;
+    font-weight: bold; 
+    font-size: 16px; 
+    line-height: 1.5; 
+    color: #000; 
+    text-decoration: none; 
+    position: relative; 
+}
+
+/* Initiale Border */
+.rtk-button_underline a::after {
+    content: ''; 
+    display: block; 
+    width: 100%; 
+    height: 1px; 
+    background-color: #E45A1A; 
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    transform: scaleX(1); 
+    transform-origin: center; 
+    transition: opacity 0.2s ease; 
+}
+
+/* Hover-Effekt: Border verschwindet sofort */
+.rtk-button_underline a:hover::after {
+    opacity: 0; 
+    transform: scaleX(0); 
+    transition: opacity 0.1s ease-out; 
+}
+
+/* Nach dem Hover: Animation für die Border */
+.rtk-button_underline a:hover::after {
+    animation: border-reveal 0.4s ease-out 0.2s forwards; 
+}
+
+/* Keyframes für die Animation */
+@keyframes border-reveal {
+    0% {
+        transform: scaleX(0);
+        opacity: 1; 
+    }
+    100% {
+        transform: scaleX(1); 
+        opacity: 1; 
+    }
+}

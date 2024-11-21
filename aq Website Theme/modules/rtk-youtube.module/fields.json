@@ -1,0 +1,101 @@
+[ {
+  "id" : "a10670dc-c809-6dd5-246a-4da0363f2862",
+  "name" : "heading",
+  "display_width" : null,
+  "label" : "Überschrift",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Medium length hero heading goes here"
+}, {
+  "id" : "b11688aa-d686-3b55-2cec-2706b139fcc6",
+  "name" : "text_field",
+  "display_width" : null,
+  "label" : "Text",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi."
+}, {
+  "id" : "c0750b56-02ec-af46-1bd3-f6438032cb94",
+  "name" : "rtk_button_roundet",
+  "display_width" : null,
+  "label" : "Runder Button Text",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "button text"
+}, {
+  "id" : "071ae190-0f9a-b9a6-ec7b-950128d584a4",
+  "name" : "rtk_button_roundet_link",
+  "display_width" : null,
+  "label" : "Runder Button Link",
+  "required" : false,
+  "locked" : false,
+  "supported_types" : [ "EXTERNAL", "CONTENT", "FILE", "EMAIL_ADDRESS", "BLOG", "CALL_TO_ACTION", "PHONE_NUMBER", "WHATSAPP_NUMBER", "PAYMENT" ],
+  "show_advanced_rel_options" : false,
+  "type" : "link",
+  "default" : {
+    "url" : {
+      "content_id" : null,
+      "type" : "EXTERNAL",
+      "href" : ""
+    },
+    "open_in_new_tab" : false,
+    "no_follow" : false
+  }
+}, {
+  "id" : "25824c9e-f25e-2943-7bf9-3ae1a20dbe1f",
+  "name" : "button_underline",
+  "display_width" : null,
+  "label" : "Button Unterstrich Text",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Mehr erfahren"
+}, {
+  "id" : "3aee6910-3e95-0915-5627-4dc0c2fd6562",
+  "name" : "button_underline_link",
+  "display_width" : null,
+  "label" : "Button Unterstrich Link",
+  "required" : false,
+  "locked" : false,
+  "supported_types" : [ "EXTERNAL", "CONTENT", "FILE", "EMAIL_ADDRESS", "BLOG", "CALL_TO_ACTION", "PHONE_NUMBER", "WHATSAPP_NUMBER", "PAYMENT" ],
+  "show_advanced_rel_options" : false,
+  "type" : "link",
+  "default" : {
+    "url" : {
+      "content_id" : null,
+      "type" : "EXTERNAL",
+      "href" : ""
+    },
+    "open_in_new_tab" : false,
+    "no_follow" : false
+  }
+}, {
+  "id" : "3316f87d-1e94-7d39-c7fd-0f096769f41a",
+  "name" : "youtube_url",
+  "display_width" : null,
+  "label" : "YouTube URL",
+  "required" : false,
+  "locked" : false,
+  "supported_types" : [ "EXTERNAL", "CONTENT", "FILE", "EMAIL_ADDRESS", "BLOG", "CALL_TO_ACTION", "PHONE_NUMBER", "WHATSAPP_NUMBER", "PAYMENT" ],
+  "type" : "url",
+  "default" : {
+    "content_id" : null,
+    "href" : "https://www.youtube.com/embed/OiYwHL5sc9E",
+    "type" : "EXTERNAL"
+  }
+} ]

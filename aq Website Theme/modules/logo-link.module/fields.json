@@ -1,0 +1,41 @@
+[ {
+  "id" : "6a8b5b05-d972-a99e-a342-49318e323ee5",
+  "name" : "logo",
+  "display_width" : null,
+  "label" : "Logo",
+  "required" : false,
+  "locked" : false,
+  "responsive" : true,
+  "resizable" : true,
+  "show_loading" : false,
+  "type" : "image",
+  "default" : {
+    "size_type" : "auto",
+    "src" : "https://139794963.fs1.hubspotusercontent-eu1.net/hubfs/139794963/rtk-logo.png",
+    "alt" : "rtk-logo",
+    "loading" : "lazy",
+    "width" : 384,
+    "height" : 160,
+    "max_width" : 384,
+    "max_height" : 160
+  }
+}, {
+  "id" : "f1305832-8f2f-034c-25e8-e3fa93656da7",
+  "name" : "link_field",
+  "display_width" : null,
+  "label" : "Link",
+  "required" : false,
+  "locked" : false,
+  "supported_types" : [ "EXTERNAL", "CONTENT", "FILE", "EMAIL_ADDRESS", "BLOG", "CALL_TO_ACTION", "PHONE_NUMBER", "WHATSAPP_NUMBER", "PAYMENT" ],
+  "show_advanced_rel_options" : false,
+  "type" : "link",
+  "default" : {
+    "url" : {
+      "content_id" : null,
+      "type" : "EXTERNAL",
+      "href" : ""
+    },
+    "open_in_new_tab" : false,
+    "no_follow" : false
+  }
+} ]

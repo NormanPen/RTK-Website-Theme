@@ -1,0 +1,49 @@
+.info-tile-wrapper {
+  width: 100%;
+  text-align: center; /* Text und Bilder zentrieren */
+}
+
+.info-tile-container {
+  width: 280px;
+  margin: 0 auto; /* Container zentrieren */
+  text-align: center;
+  display: flex;
+  flex-direction: column; /* Inhalte von oben nach unten anordnen */
+  align-items: center; /* Inhalte horizontal zentrieren */
+}
+
+.info-tile-image-wrapper {
+  display: flex;
+  justify-content: center; /* Bild horizontal zentrieren */
+  align-items: center;
+}
+
+.info-tile-image {
+  width: 148px;
+  height: 148px;
+}
+
+.info-tile-container p, h3 {
+  padding: 0;
+  margin: 0;
+  font-family: 'Verdana', sans-serif;
+}
+
+.info-tile-text {
+  margin: 20px 0 48px 0;
+}
+
+.info-tile-text h3 {
+  font-size: 20px;
+  font-weight: bold;
+  border-bottom: 8px solid #E45A1A;
+  display: inline-block; 
+  padding-bottom: 2px;
+  color: #000;
+}
+
+.info-tile-text p {
+  margin-top: 16px;
+  font-size: 18px; 
+  color: #000;
+}

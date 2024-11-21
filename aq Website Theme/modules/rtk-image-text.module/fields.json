@@ -1,0 +1,108 @@
+[ {
+  "id" : "dc2b0358-603d-c2ed-63f2-bca1570eb63c",
+  "name" : "image_field",
+  "display_width" : null,
+  "label" : "Image",
+  "required" : false,
+  "locked" : false,
+  "responsive" : true,
+  "resizable" : true,
+  "show_loading" : false,
+  "type" : "image",
+  "default" : {
+    "size_type" : "auto",
+    "src" : "https://139794963.fs1.hubspotusercontent-eu1.net/hubfs/139794963/Placeholder%201.png",
+    "alt" : "Placeholder 1",
+    "loading" : "lazy",
+    "width" : 736,
+    "height" : 646,
+    "max_width" : 736,
+    "max_height" : 646
+  }
+}, {
+  "id" : "03d4dbb8-70b2-c809-6a21-09b087cf6cd0",
+  "name" : "heading",
+  "display_width" : null,
+  "label" : "Überschrift",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Jetzt Partner werden!"
+}, {
+  "id" : "ad94d271-4698-b2dc-8598-6dcb7575ae77",
+  "name" : "text_field",
+  "display_width" : null,
+  "label" : "Text",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vehicula sapien at arcu facilisis, vel tincidunt enim volutpat."
+}, {
+  "id" : "e577e3f0-d76d-7089-dbb4-125678a614ed",
+  "name" : "rtk_button_roundet",
+  "display_width" : null,
+  "label" : "Runder Button Text",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "button text"
+}, {
+  "id" : "2360e6bb-f492-b0df-4caf-09855435e166",
+  "name" : "rtk_button_roundet_link",
+  "display_width" : null,
+  "label" : "Runder Button Link",
+  "required" : false,
+  "locked" : false,
+  "supported_types" : [ "EXTERNAL", "CONTENT", "FILE", "EMAIL_ADDRESS", "BLOG", "CALL_TO_ACTION", "PHONE_NUMBER", "WHATSAPP_NUMBER", "PAYMENT" ],
+  "show_advanced_rel_options" : false,
+  "type" : "link",
+  "default" : {
+    "url" : {
+      "content_id" : null,
+      "type" : "EXTERNAL",
+      "href" : ""
+    },
+    "open_in_new_tab" : false,
+    "no_follow" : false
+  }
+}, {
+  "id" : "e638a3dd-cb3a-d657-5250-3cd7517fca80",
+  "name" : "button_underline",
+  "display_width" : null,
+  "label" : "Button Unterstrich ",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Mehr erfahren"
+}, {
+  "id" : "0b8c2dd8-f46c-4701-5dc3-8b1600540f80",
+  "name" : "button_unterstrich_link",
+  "display_width" : null,
+  "label" : "Button Unterstrich Link",
+  "required" : false,
+  "locked" : false,
+  "supported_types" : [ "EXTERNAL", "CONTENT", "FILE", "EMAIL_ADDRESS", "BLOG", "CALL_TO_ACTION", "PHONE_NUMBER", "WHATSAPP_NUMBER", "PAYMENT" ],
+  "show_advanced_rel_options" : false,
+  "type" : "link",
+  "default" : {
+    "url" : {
+      "content_id" : null,
+      "type" : "EXTERNAL",
+      "href" : ""
+    },
+    "open_in_new_tab" : false,
+    "no_follow" : false
+  }
+} ]

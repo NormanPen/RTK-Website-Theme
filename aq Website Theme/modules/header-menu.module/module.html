@@ -1,0 +1,16 @@
+{% macro render_simple_menu(menu) %}
+  {% for link in menu.children %}
+    <li>
+      <a href="{{ link.url|escape_url }}" {{ 'target="_blank" rel="noopener"' if link.linkTarget }}>
+        {{ link.label|escape_html }}
+      </a>
+    </li>
+  {% endfor %}
+{% endmacro %}
+
+
+<nav class="header-navigation">
+  <ul class="header-menu-ul">
+    {{ render_simple_menu(menu(module.menu_field, "site_root")) }}
+  </ul>
+</nav>

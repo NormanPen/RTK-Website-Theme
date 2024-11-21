@@ -1,0 +1,36 @@
+<div class="youtube-wrapper">
+  <div class="video-container">
+    <iframe src="{{module.youtube_url.url.src}}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  <div class="youtube-card">
+
+    <div class="youtube-heading">
+      <h2>
+        {{module.heading}}
+      </h2>
+    </div>
+    
+    <div class="youtube-text-button-box">
+      <div class="youtube-text">
+        <p>
+          {{module.text_field}}
+        </p>
+      </div>
+      
+      <div class="rtk-buttons">
+          <div class="rtk-button-wrapper">
+            <div class="rtk-button_roundet">
+              <a href="{{module.rtk_button_roundet_link.url.href}}" >{{module.rtk_button_roundet}}</a>
+            </div>          
+          </div>
+
+          <div class="rtk-button-wrapper">
+            <div class="rtk-button_underline">
+              <a href="{{module.button_underline_link.url.href}}" >{{module.button_underline}}</a>
+            </div>  
+          </div>   
+      </div>
+      
+    </div>
+  </div>
+</div>

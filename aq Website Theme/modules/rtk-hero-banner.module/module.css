@@ -1,0 +1,98 @@
+.background-image-div {
+  width: 100%; 
+  height: 832px; 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+}
+
+.rtk-hero-banner-box {
+    font-family: 'Verdana', sans-serif !important;
+    font-size: 16px !important;
+    font-weight: normal !important;
+    font-style: normal !important;
+    color: #000000 !important;
+    text-decoration: none !important;
+    display: inline-block;
+    padding: 16px;
+}
+
+.rtk-hero-banner-text-wrapper a {
+  display: block; 
+
+}
+
+.botton-container-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Buttons bleiben so breit wie der Text */
+  gap: 16px; /* Abstand zwischen den Buttons */
+}
+
+.button-container {
+  display: inline-flex; /* Nur so breit wie der Inhalt + Padding */
+}
+
+.green-button,
+.white-button {
+  font-family: 'Verdana', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #016C6C;
+  padding: 20px 32px;
+  border-radius: 32px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.green-button {
+  background-color: #C5D632;
+  border: none;
+}
+
+.white-button {
+  background-color: #FFFFFF;
+  border: none;
+}
+
+.text-box-wrapper h1 {
+  font-family: 'Verdana', sans-serif !important;
+  margin: 0 !important;
+  padding: 0 0 44px 0 !important;
+  max-width: 300px;
+  color: pink;
+}
+
+.text-box-wrapper p {
+  font-family: 'Verdana', sans-serif;
+  margin: 0 !important;
+  padding: 0 0 44px 0 !important;
+  max-width: 500px;
+  color: #000;
+}
+
+
+@media (min-width: 1024px) {
+  .background-image-div {
+    display: flex; /* Aktiviert Flexbox */
+    justify-content: flex-end; /* Inhalt wird nach rechts geschoben */
+    align-items: center; /* Vertikale Zentrierung */
+    padding-right: 147px; /* Abstand vom rechten Rand */
+  }
+
+  .rtk-hero-banner-box {
+    font-family: 'Verdana', sans-serif !important;
+    font-size: 16px !important;
+    font-weight: normal !important;
+    font-style: normal !important;
+    color: #000000 !important;
+    text-decoration: none !important;
+    display: inline-block;
+    padding: 16px;
+  }
+}
+
+.no-margin-padding {
+  margin: 0 !important;
+  padding: 0 !important;
+}

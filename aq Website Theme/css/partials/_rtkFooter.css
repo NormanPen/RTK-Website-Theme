@@ -1,0 +1,65 @@
+/* @import url('http://example.com/example_style.css'); */
+
+/***********************************************/
+/* CSS @imports must be at the top of the file */
+/* Add them above this section                 */
+/***********************************************/
+
+/*****************************************/
+/* Start your style declarations here    */
+/*****************************************/
+
+footer {
+  width: 100%;
+  background-color: #4A4D4D !important;
+}
+
+.footer-wrapper {
+  padding: 32px 32px 64px 32px;
+  max-width: 1800px;
+  margin: 0 auto;
+}
+
+.footer-grid-wrapper {
+  display: grid;
+  grid-template-columns: 1fr; 
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.logo-link-wrapper {
+  margin-bottom: 32px;
+}
+
+.address-wrapper {
+  margin-bottom: 32px;
+}
+
+.social-media-links-wrapper {
+  margin-bottom: 64px;
+}
+
+.footer-menu-wrapper {
+  margin-bottom: 64px;
+}
+
+.legal-links-wrapper {
+  padding-top: 32px;
+  border-top: 1px solid #fff;
+  text-align: center;
+}
+
+/* Media Query für den Desktop */
+@media (min-width: 768px) {
+  .footer-grid-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr;
+    grid-column-gap: 32px; 
+    grid-row-gap: 0px;
+  }
+  .footer-wrapper {
+  padding: 94px 32px 64px 32px;
+}
+}

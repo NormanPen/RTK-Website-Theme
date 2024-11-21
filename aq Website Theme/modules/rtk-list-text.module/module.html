@@ -1,0 +1,26 @@
+<div class="list-text-wrapper">
+  <div class="list-text-container">
+    
+    <div class="list-text-heading">
+      <h3>
+        {{module.heading_black}}, <br><span>{{module.heading_orange}}</span> 
+      </h3>
+    </div>
+    
+    <div class="list-text-list">
+      {% for item in module.list_group %}
+      <div class="list-item">
+        <img src="{{ item.list_icon.src }}" alt="{{ item.list_icon.alt }}" />
+        <p>{{ item.list_text }}</p>
+      </div>
+      {% endfor %}
+    </div>
+
+    
+    <div class="list-text-text">
+      <p>
+        {{module.text_field }}
+      </p>
+    </div>
+  </div>
+</div>

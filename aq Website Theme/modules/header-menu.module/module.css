@@ -1,0 +1,50 @@
+/* Header Navigation */
+.header-navigation {
+  padding: 0;
+  margin: 0;
+}
+
+.header-menu-ul {
+  list-style-type: none; 
+  padding: 0;
+  margin: 0;
+  display: flex; 
+}
+
+.header-menu-ul li {
+  margin-right: 50px; 
+}
+
+.header-menu-ul li:last-child {
+  margin-right: 0; 
+}
+
+.header-menu-ul li a {
+  font-family: 'Verdana', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  color: #000000;
+  text-decoration: none;
+  text-transform: uppercase; 
+  display: inline-block; 
+  position: relative; /* Für das Pseudo-Element notwendig */
+  padding-bottom: 12px; /* Platz für die Unterstreichung */
+  transition: color 0.3s ease; /* Transition nur für Farbe */
+}
+
+/* Hover-Unterstreichung */
+.header-menu-ul li a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 8px;
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover-Effekt */
+.header-menu-ul li a:hover::after {
+  background-color: #E45A1A; /* Farbe der Unterstreichung beim Hover */
+}

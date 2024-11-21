@@ -1,0 +1,87 @@
+[ {
+  "id" : "057017f9-a9a8-b46c-3523-62466cdb19bb",
+  "name" : "heading",
+  "display_width" : null,
+  "label" : "Überschrift",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Kontaktieren Sie uns für Beratung"
+}, {
+  "id" : "2b0c727a-3f22-2d0c-755f-9188371c3d3c",
+  "name" : "text_field",
+  "display_width" : null,
+  "label" : "Text",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Lassen Sie sich von unseren Experten beraten und treten sie der Gemeinschaft bei."
+}, {
+  "id" : "a3543cc2-9ebc-e5ad-0ff6-b48c0dbdd1db",
+  "name" : "rtk_button_roundet",
+  "display_width" : null,
+  "label" : "Runder Button Text",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Jetzt Partner werden"
+}, {
+  "id" : "1062741a-f510-faa0-9f08-603f2c534943",
+  "name" : "rtk_button_roundet_link",
+  "display_width" : null,
+  "label" : "Runder Button Link",
+  "required" : false,
+  "locked" : false,
+  "supported_types" : [ "EXTERNAL", "CONTENT", "FILE", "EMAIL_ADDRESS", "BLOG", "CALL_TO_ACTION", "PHONE_NUMBER", "WHATSAPP_NUMBER", "PAYMENT" ],
+  "show_advanced_rel_options" : false,
+  "type" : "link",
+  "default" : {
+    "url" : {
+      "content_id" : null,
+      "type" : "EXTERNAL",
+      "href" : ""
+    },
+    "open_in_new_tab" : false,
+    "no_follow" : false
+  }
+}, {
+  "id" : "8d563f5a-4edf-22be-f61f-0ae50d485faa",
+  "name" : "button_underline",
+  "display_width" : null,
+  "label" : "Button Unterstrich",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Mehr erfahren"
+}, {
+  "id" : "ac9f25f3-b6dc-54c8-49c9-314e74a1d228",
+  "name" : "button_underline_link",
+  "display_width" : null,
+  "label" : "Button Unterstrich Link",
+  "required" : false,
+  "locked" : false,
+  "supported_types" : [ "EXTERNAL", "CONTENT", "FILE", "EMAIL_ADDRESS", "BLOG", "CALL_TO_ACTION", "PHONE_NUMBER", "WHATSAPP_NUMBER", "PAYMENT" ],
+  "show_advanced_rel_options" : false,
+  "type" : "link",
+  "default" : {
+    "url" : {
+      "content_id" : null,
+      "type" : "EXTERNAL",
+      "href" : ""
+    },
+    "open_in_new_tab" : false,
+    "no_follow" : false
+  }
+} ]

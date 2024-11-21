@@ -1,0 +1,149 @@
+.youtube-wrapper {
+  width: 100%;
+}
+
+.youtube {
+  width: 80%;              
+  margin: 32px auto; 
+  
+}
+
+.youtube-card {
+  background-color: #F7FAFC;
+  margin: 0 16px;
+  padding: 16px;
+  border-left: 1px solid #D9D9D9; /* Linke Border */
+  border-right: 1px solid #D9D9D9; /* Rechte Border */
+  border-bottom: 1px solid #D9D9D9; /* Untere Border */
+  border-top: none; /* Keine Border oben */
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 21px;
+  border-bottom-right-radius: 21px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.video-container {
+  margin: 0 16px;
+  position: relative;
+  padding-bottom: 56.25%; 
+  height: 0;
+  overflow: hidden;
+  max-width: 100%; 
+  border-top-left-radius: 21px;
+  border-top-right-radius: 21px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+/* -------------------ENTFERNEN------------------------*/
+
+/* Button Roundet Container */
+.rtk-button_roundet {
+    display: inline-block;
+    border-radius: 50px;
+    background-color: #D1D700;
+    padding: 12px 32px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+/* Link im Button */
+.rtk-button_roundet a {
+    font-family: Verdana, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+
+/* Hover-Effekt */
+.rtk-button_roundet:hover {
+    background-color: #1D5C64;
+}
+
+/* Link bleibt unverändert beim Hover */
+.rtk-button_roundet a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Button Underline Container */
+.rtk-button_underline {
+    display: inline-block;
+    position: relative;
+    padding: 0;
+    text-align: center;
+}
+
+/* Link im Button */
+.rtk-button_underline a {
+    font-family: Verdana, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #000;
+    text-decoration: none;
+    position: relative;
+}
+
+/* Initiale Border */
+.rtk-button_underline a::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #E45A1A;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: scaleX(1);
+    transform-origin: center;
+    transition: opacity 0.2s ease;
+}
+
+/* Hover-Effekt: Border verschwindet sofort */
+.rtk-button_underline a:hover::after {
+    opacity: 0;
+    transform: scaleX(0);
+    transition: opacity 0.1s ease-out;
+}
+
+/* Nach dem Hover: Animation für die Border */
+.rtk-button_underline a:hover::after {
+    animation: border-reveal 0.4s ease-out 0.2s forwards;
+}
+
+/* Keyframes für die Animation */
+@keyframes border-reveal {
+    0% {
+        transform: scaleX(0);
+        opacity: 1;
+    }
+    100% {
+        transform: scaleX(1);
+        opacity: 1;
+    }
+}
+
+/* Button Container - für nebeneinander mit Abstand */
+.rtk-buttons {
+    display: flex;
+    justify-content: flex-start;  /* Buttons zusammen rechts ausrichten */
+    gap: 42px;  /* Abstand von 42px zwischen den Buttons */
+}
+
+

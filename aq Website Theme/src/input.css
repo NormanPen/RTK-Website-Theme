@@ -18,23 +18,23 @@
         font-style: normal;
         font-weight: 700;
         font-display: swap;
-        src: url("https://139794963.fs1.hubspotusercontent-eu1.net/hubfs/139794963/fonts/Verdana/verdana-bold.ttf") format('truetype');
+        src: url("https://139794963.fs1.hubspotusercontent-eu1.net/hubfs/139794963/fonts/Verdana/verdana.ttf") format('truetype');
     }
 
     /* Kursive Variante */
     @font-face {
         font-family: 'Verdana';
-        font-style: italic;
-        font-weight: 400;
+        font-style: bold;
+        font-weight: bold;
         font-display: swap;
-        src: url("https://139794963.fs1.hubspotusercontent-eu1.net/hubfs/139794963/fonts/Verdana/verdana-italic.ttf") format('truetype');
+        src: url("https://139794963.fs1.hubspotusercontent-eu1.net/hubfs/139794963/fonts/Verdana/verdana-bold.ttf") format('truetype');
     }
 
     /* Fette und kursive Variante */
     @font-face {
         font-family: 'Verdana';
         font-style: italic;
-        font-weight: 700;
+        font-weight: 400;
         font-display: swap;
         src: url("https://139794963.fs1.hubspotusercontent-eu1.net/hubfs/139794963/fonts/Verdana/verdana-bold-italic.ttf") format('truetype');
     }

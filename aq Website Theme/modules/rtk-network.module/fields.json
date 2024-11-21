@@ -1,0 +1,157 @@
+[ {
+  "id" : "7a675a13-ede4-37a0-3eb5-42910fb779ca",
+  "name" : "heading_black",
+  "display_width" : null,
+  "label" : "Überschrift schwarz",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Unser Netzwerk,"
+}, {
+  "id" : "fcd203d0-9420-915a-a568-90e5867ba86c",
+  "name" : "heading_orange",
+  "display_width" : null,
+  "label" : "Überschrift orange",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "eine starke Gemeinschaft."
+}, {
+  "id" : "2d5953ce-f1f3-8d07-a766-029acddf9797",
+  "name" : "text_field",
+  "display_width" : null,
+  "label" : "Text",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Profitieren Sie von unserem starken Netzwerk und schließen Sie sich einer Gemeinschaft erfolgreicher Reisebüros an."
+}, {
+  "id" : "2f85bda1-3903-f098-5066-f7df53ce4478",
+  "name" : "rtk_button_roundet",
+  "display_width" : null,
+  "label" : "Runder Button Text",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "button text"
+}, {
+  "id" : "ea7b07a8-2992-4074-0849-091e1880d637",
+  "name" : "rtk_button_roundet_link",
+  "display_width" : null,
+  "label" : "Runder ButtonLink",
+  "required" : false,
+  "locked" : false,
+  "supported_types" : [ "EXTERNAL", "CONTENT", "FILE", "EMAIL_ADDRESS", "BLOG", "CALL_TO_ACTION", "PHONE_NUMBER", "WHATSAPP_NUMBER", "PAYMENT" ],
+  "show_advanced_rel_options" : false,
+  "type" : "link",
+  "default" : {
+    "url" : {
+      "content_id" : null,
+      "href" : "https://www.google.de/",
+      "type" : "EXTERNAL"
+    },
+    "open_in_new_tab" : false,
+    "no_follow" : false
+  }
+}, {
+  "id" : "46844f8a-285a-8aea-d27f-71a977c0e622",
+  "name" : "info_group",
+  "display_width" : null,
+  "label" : "Info group",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : 1,
+    "max" : 3,
+    "sorting_label_field" : null,
+    "default" : 1
+  },
+  "children" : [ {
+    "id" : "96025c67-2675-28d8-7a3a-bce6b2b6c869",
+    "name" : "info_icon",
+    "display_width" : null,
+    "label" : "Info icon",
+    "required" : false,
+    "locked" : false,
+    "responsive" : true,
+    "resizable" : true,
+    "show_loading" : false,
+    "type" : "image",
+    "default" : {
+      "size_type" : "auto",
+      "src" : "https://139794963.fs1.hubspotusercontent-eu1.net/hubfs/139794963/Info-icon.png",
+      "alt" : "Info-icon",
+      "loading" : "lazy",
+      "width" : 128,
+      "height" : 126,
+      "max_width" : 128,
+      "max_height" : 126
+    }
+  }, {
+    "id" : "63fbd0ba-7433-8e7a-7c6c-d097b09384a0",
+    "name" : "info_text_heading",
+    "display_width" : null,
+    "label" : "Info Text Überschrift",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "3.000"
+  }, {
+    "id" : "960cef11-1585-eb0c-a141-e2ac1f56d6bb",
+    "name" : "info_text",
+    "display_width" : null,
+    "label" : "Info Text",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Reisebüros"
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "group_occurrence_meta" : null,
+  "type" : "group",
+  "default" : [ {
+    "info_icon" : {
+      "size_type" : "auto",
+      "src" : "https://139794963.fs1.hubspotusercontent-eu1.net/hubfs/139794963/Info-icon.png",
+      "alt" : "Info-icon",
+      "loading" : "lazy",
+      "width" : 128,
+      "height" : 126,
+      "max_width" : 128,
+      "max_height" : 126
+    },
+    "info_text_heading" : "3.000",
+    "info_text" : "Reisebüros"
+  } ]
+}, {
+  "id" : "562dbf16-4854-aa11-70d7-2e29d8f975c6",
+  "name" : "button_underline",
+  "display_width" : null,
+  "label" : "Button Unterstrich Text",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Mehr erfahren"
+} ]

@@ -1,0 +1,49 @@
+<div class="network-wrapper">
+  <div class="network">
+    <div class="network-card">
+      <div class="network-text-button-wrapper">
+        <div class="network-text">
+          <h2>
+            {{module.heading_black}}<br><span class="heading-orange">{{module.heading_orange}}</span>
+          </h2>
+          <p>
+            {{module.text_field}}
+          </p>
+        </div>
+
+        <div class="network-buttons">
+          <div class="network-button-wrapper">
+            <div class="rtk-button_roundet">
+              <a href="{{module.rtk_button_roundet_link.url.href}}" >{{module.rtk_button_roundet}}</a>
+            </div>          
+          </div>
+
+          <div class="network-button-wrapper">
+            <div class="rtk-button_underline">
+              <a href="{{module.rtk_button_roundet_link.url.href}}" >{{module.button_underline}}</a>
+            </div>  
+          </div>  
+        </div>
+      </div>
+  
+      <div class="network-info-wrapper">
+        {% for item in module.info_group %}
+          <div class="network-info">
+            <div class="network-image-wrapper">
+              <img class="network-image" src="{{ item.info_icon.src }}" alt="{{ item.info_icon.alt_text }}"/>      
+            </div>
+            <div class="network-info-text-wrapper">
+              <h3>
+                > {{ item.info_text_heading }}
+              </h3>
+              <p>
+                {{ item.info_text }}
+              </p>
+            </div>
+          </div>
+        {% endfor %}  
+      </div>      
+      
+    </div>
+  </div> 
+</div>

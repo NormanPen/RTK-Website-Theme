@@ -1,0 +1,73 @@
+[ {
+  "id" : "f0d07b0a-fed8-643b-b0ab-c93eb9c9fb2d",
+  "name" : "street",
+  "display_width" : null,
+  "label" : "Straße",
+  "required" : false,
+  "locked" : true,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Burgkirchener Str. 143"
+}, {
+  "id" : "47574029-a06b-406a-689c-3558c5fbac16",
+  "name" : "zip",
+  "display_width" : null,
+  "label" : "PLZ",
+  "required" : false,
+  "locked" : true,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "84489"
+}, {
+  "id" : "05edbfee-83e7-b083-b898-f7457d12c30e",
+  "name" : "city",
+  "display_width" : null,
+  "label" : "Stadt",
+  "required" : false,
+  "locked" : true,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Burghausen"
+}, {
+  "id" : "f329023c-41c9-69d5-6864-f5adb36d85d1",
+  "name" : "country",
+  "display_width" : null,
+  "label" : "Land",
+  "required" : false,
+  "locked" : true,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Deutschland"
+}, {
+  "id" : "5557ad01-5f90-73fb-948d-116347728250",
+  "name" : "phone",
+  "display_width" : null,
+  "label" : "Telefonnummer",
+  "required" : false,
+  "locked" : true,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "+49 8677 918-100"
+}, {
+  "id" : "192ca762-a5b4-1d49-82d7-57efefbb14cc",
+  "name" : "mail",
+  "display_width" : null,
+  "label" : "E-Mail",
+  "required" : false,
+  "locked" : true,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "info@rt-reisen.de"
+} ]

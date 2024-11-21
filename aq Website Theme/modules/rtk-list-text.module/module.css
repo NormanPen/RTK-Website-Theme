@@ -1,0 +1,30 @@
+.list-text-wrapper {
+  width: 100%;
+}
+
+.list-text-wrapper p, h1, h2, h3 {
+  padding: 0;
+  margin: 0;
+  font-family: 'Verdana', sans-serif;  
+}
+
+.list-text-container {
+  width: 100%;
+}
+
+.list-text-heading h3 {
+  font-size: 32px;
+  font-weight: bold;
+  color: black;
+}
+
+.list-text-heading h3 {
+  font-size: 32px;
+  font-weight: bold;
+  color: black;
+}
+.list-text-heading span {
+  font-size: 32px;
+  font-weight: bold;
+  color: #E45A1A;
+}

@@ -1,29 +1,56 @@
-<!-- module html  -->
+<!-- module html -->
 {# Neues Menü-Modul, das nur das Menü aus dem Feld "menu_field" anzeigt #}
 
+<!-- Tailwind für Entwicklung, später LÖSCHEN -->
+{{ require_css(get_asset_url("../../css/tailwind.css")) }}
+
 {% macro render_simple_menu(menu) %}
-{% for link in menu.children %}
-  <li class="menu__item {{ "menu__item--has-submenu" if link.children }}">
-    <a class="menu__link" href="{{ link.url|escape_url }}" {{ 'target="_blank" rel="noopener"' if link.linkTarget }}>
-      {{ link.label|escape_html }}
-    </a>
-    {% if link.children %}
-      <ul class="menu__submenu">
-        {% for sublink in link.children %}
-          <li class="menu__item">
-            <a class="menu__link" href="{{ sublink.url|escape_url }}" {{ 'target="_blank" rel="noopener"' if sublink.linkTarget }}>
-              {{ sublink.label|escape_html }}
-            </a>
-          </li>
-        {% endfor %}
-      </ul>
-    {% endif %}
-  </li>
-{% endfor %}
+  {% for link in menu.children %}
+    <li>
+      <a href="{{ link.url|escape_url }}" {{ 'target="_blank" rel="noopener"' if link.linkTarget }} class="hover:font-verdana hover:text-black text-black text-2xl  uppercase hover:border-b-4 hover:border-orange-500 no-underline font-verdana hover:no-underline">
+        {{ link.label|escape_html }}
+      </a>
+    </li>
+  {% endfor %}
 {% endmacro %}
 
-<nav class="menu" aria-label="Main menu">
-<ul class="menu__wrapper no-list">
-  {{ render_simple_menu(menu(module.menu_field, "site_root")) }}
-</ul>
+<div id="burger-btn" class="hover:cursor-pointer lg:rtk-navigation-wrapper flex items-center justify-between lg:px-[142px] lg:py-[64px]">
+  <!-- Logo für Desktop und mobile Ansicht -->
+  <div class="rtk-logo-wrapper flex items-center justify-start">
+    <a href="">
+      <img src="{{module.image_field.src}}" alt="{{module.image_field.alt}}" class="rtk-logo h-[80px] w-auto lg:h-[64px] lg:px-[64px] h-[64px] px-[64px]" />
+    </a>
+  </div>
+
+  <!-- Burger-Button und Menü Text für mobile Ansicht -->
+  <div class="lg:hidden flex items-center justify-end pr-8 flex-col">
+  <div class="grid pt-5" >
+    <div class="grid justify-center w-20">
+      <div class="burger-item">
+        <div class="burger-line"></div>
+        <div class="burger-line"></div>
+        <div class="burger-line"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Menü Text unter Burger-Button -->
+  <p id="menu-text" class="text-center text-web-blue mt-2 text-[16px] font-verdana no-underline">
+    MENÜ
+  </p>
+
+</div>
+
+<!-- Menü für Desktop (nur sichtbar auf lg und größeren Bildschirmen) -->
+<nav class="rtk-menu">
+  <ul class="no-list flex space-x-8 hidden lg:flex ml-auto">
+    {{ render_simple_menu(menu(module.menu_field, "site_root")) }}
+  </ul>
+</nav>
+
+<!-- Menü für Mobile und Tablet (nur sichtbar auf kleineren Bildschirmen) -->
+<nav class="rtk-mobile-menu rtk-mobile-menu_hidden lg:hidden flex justify-center items-center space-y-4 mt-8  ">
+  <ul class="no-list flex flex-col items-center space-y-4">
+    {{ render_simple_menu(menu(module.menu_field, "site_root")) }}
+  </ul>
 </nav>

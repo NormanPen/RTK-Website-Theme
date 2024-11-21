@@ -1,0 +1,225 @@
+[ {
+  "id" : "894f4929-a982-b19b-4d93-ff31500827c0",
+  "name" : "heading",
+  "display_width" : null,
+  "label" : "Überschrift",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Seien Sie dabei!"
+}, {
+  "id" : "660a2a1b-d1b9-8fc3-a447-7e4ef115fa7d",
+  "name" : "text_field",
+  "display_width" : null,
+  "label" : "Text",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Profitieren Sie von unserem starken Netzwerk und schließen Sie sich einer Gemeinschaft erfolgreicher Reisebüros an."
+}, {
+  "id" : "de45dd2b-12fc-9087-3510-8e6e6ec95c66",
+  "name" : "aida",
+  "display_width" : null,
+  "label" : "AIDA",
+  "required" : false,
+  "locked" : false,
+  "responsive" : true,
+  "resizable" : true,
+  "show_loading" : false,
+  "type" : "image",
+  "default" : {
+    "size_type" : "auto",
+    "src" : "https://139794963.fs1.hubspotusercontent-eu1.net/hubfs/139794963/AIDA.png",
+    "alt" : "AIDA",
+    "loading" : "lazy",
+    "width" : 452,
+    "height" : 450,
+    "max_width" : 452,
+    "max_height" : 450
+  }
+}, {
+  "id" : "2b41928a-f277-b776-ae58-c5dd1d7aa786",
+  "name" : "aida_link",
+  "display_width" : null,
+  "label" : "AIDA Link",
+  "required" : false,
+  "locked" : false,
+  "supported_types" : [ "EXTERNAL", "CONTENT", "FILE", "EMAIL_ADDRESS", "BLOG", "CALL_TO_ACTION", "PHONE_NUMBER", "WHATSAPP_NUMBER", "PAYMENT" ],
+  "show_advanced_rel_options" : false,
+  "type" : "link",
+  "default" : {
+    "url" : {
+      "content_id" : null,
+      "href" : "https://aida.de/",
+      "type" : "EXTERNAL"
+    },
+    "open_in_new_tab" : true,
+    "no_follow" : false
+  }
+}, {
+  "id" : "0a1ccef2-5852-c495-7825-df64184105b6",
+  "name" : "ergo",
+  "display_width" : null,
+  "label" : "ERGO",
+  "required" : false,
+  "locked" : false,
+  "responsive" : true,
+  "resizable" : true,
+  "show_loading" : false,
+  "type" : "image",
+  "default" : {
+    "size_type" : "auto",
+    "src" : "https://139794963.fs1.hubspotusercontent-eu1.net/hubfs/139794963/ERGO.png",
+    "alt" : "ERGO",
+    "loading" : "lazy",
+    "width" : 450,
+    "height" : 450,
+    "max_width" : 450,
+    "max_height" : 450
+  }
+}, {
+  "id" : "e055fb6b-a5f9-ae78-12bd-8a4a102bc38a",
+  "name" : "ergo_link",
+  "display_width" : null,
+  "label" : "ERGO Link",
+  "required" : false,
+  "locked" : false,
+  "supported_types" : [ "EXTERNAL", "CONTENT", "FILE", "EMAIL_ADDRESS", "BLOG", "CALL_TO_ACTION", "PHONE_NUMBER", "WHATSAPP_NUMBER", "PAYMENT" ],
+  "show_advanced_rel_options" : false,
+  "type" : "link",
+  "default" : {
+    "url" : {
+      "content_id" : null,
+      "href" : "https://www.ergo-reiseversicherung.de/",
+      "type" : "EXTERNAL"
+    },
+    "open_in_new_tab" : true,
+    "no_follow" : false
+  }
+}, {
+  "id" : "f0995d1f-4d77-4f56-44d2-e5b156a6e5c5",
+  "name" : "costa",
+  "display_width" : null,
+  "label" : "COSTA",
+  "required" : false,
+  "locked" : false,
+  "responsive" : true,
+  "resizable" : true,
+  "show_loading" : false,
+  "type" : "image",
+  "default" : {
+    "size_type" : "auto",
+    "src" : "https://139794963.fs1.hubspotusercontent-eu1.net/hubfs/139794963/COSTA.png",
+    "alt" : "COSTA",
+    "loading" : "lazy",
+    "width" : 450,
+    "height" : 450,
+    "max_width" : 450,
+    "max_height" : 450
+  }
+}, {
+  "id" : "956b78ec-4f5b-af86-40ad-e9905e189ad6",
+  "name" : "costa_link",
+  "display_width" : null,
+  "label" : "COSTA Link",
+  "required" : false,
+  "locked" : false,
+  "supported_types" : [ "EXTERNAL", "CONTENT", "FILE", "EMAIL_ADDRESS", "BLOG", "CALL_TO_ACTION", "PHONE_NUMBER", "WHATSAPP_NUMBER", "PAYMENT" ],
+  "show_advanced_rel_options" : false,
+  "type" : "link",
+  "default" : {
+    "url" : {
+      "content_id" : null,
+      "href" : "https://www.costakreuzfahrten.de/",
+      "type" : "EXTERNAL"
+    },
+    "open_in_new_tab" : true,
+    "no_follow" : false
+  }
+}, {
+  "id" : "45f6b04f-a8e1-09ed-3684-9cb2e7d2d486",
+  "name" : "ncl",
+  "display_width" : null,
+  "label" : "NCL",
+  "required" : false,
+  "locked" : false,
+  "responsive" : true,
+  "resizable" : true,
+  "show_loading" : false,
+  "type" : "image",
+  "default" : {
+    "size_type" : "auto",
+    "src" : "https://139794963.fs1.hubspotusercontent-eu1.net/hubfs/139794963/NCL.png",
+    "alt" : "NCL",
+    "loading" : "lazy",
+    "width" : 450,
+    "height" : 450,
+    "max_width" : 450,
+    "max_height" : 450
+  }
+}, {
+  "id" : "e08050ec-03fa-0a70-980a-a5ae717de4d9",
+  "name" : "nlc_link",
+  "display_width" : null,
+  "label" : "NLC Link",
+  "required" : false,
+  "locked" : false,
+  "supported_types" : [ "EXTERNAL", "CONTENT", "FILE", "EMAIL_ADDRESS", "BLOG", "CALL_TO_ACTION", "PHONE_NUMBER", "WHATSAPP_NUMBER", "PAYMENT" ],
+  "show_advanced_rel_options" : false,
+  "type" : "link",
+  "default" : {
+    "url" : {
+      "content_id" : null,
+      "href" : "https://www.ncl.com/",
+      "type" : "EXTERNAL"
+    },
+    "open_in_new_tab" : true,
+    "no_follow" : false
+  }
+}, {
+  "id" : "9b83796a-46d0-fdad-7390-96ef231d75bf",
+  "name" : "tui",
+  "display_width" : null,
+  "label" : "TUI",
+  "required" : false,
+  "locked" : false,
+  "responsive" : true,
+  "resizable" : true,
+  "show_loading" : false,
+  "type" : "image",
+  "default" : {
+    "size_type" : "auto",
+    "src" : "https://139794963.fs1.hubspotusercontent-eu1.net/hubfs/139794963/TUI.png",
+    "alt" : "TUI",
+    "loading" : "lazy",
+    "width" : 450,
+    "height" : 450,
+    "max_width" : 450,
+    "max_height" : 450
+  }
+}, {
+  "id" : "5f939591-3bf8-554c-955e-d5dec4123f28",
+  "name" : "tui_link",
+  "display_width" : null,
+  "label" : "TUI Link",
+  "required" : false,
+  "locked" : false,
+  "supported_types" : [ "EXTERNAL", "CONTENT", "FILE", "EMAIL_ADDRESS", "BLOG", "CALL_TO_ACTION", "PHONE_NUMBER", "WHATSAPP_NUMBER", "PAYMENT" ],
+  "show_advanced_rel_options" : false,
+  "type" : "link",
+  "default" : {
+    "url" : {
+      "content_id" : null,
+      "href" : "https://www.tui.com/",
+      "type" : "EXTERNAL"
+    },
+    "open_in_new_tab" : true,
+    "no_follow" : false
+  }
+} ]
